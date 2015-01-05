@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": "HackerNews_DarkTheme",
+  "description": "A dark theme for Hacker News!",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://news.ycombinator.com/*"],
+      "js": ["jquery-2.1.3.min.js", "custom.js"]
+    }
+  ]
+}
