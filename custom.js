@@ -94,8 +94,6 @@ function start() {
     jQuery('tr:eq(0)').next().css('background-color', config.topBarColor);
   }
   
-  //// Footer
-  jQuery('.pagetop:eq(0)').append(' | <a href="http://www.github.com/dparpyani" style="color: cyan;">Hi there :)</a>');
 }
 
 // Load jQuery, if the current web page does not have it
